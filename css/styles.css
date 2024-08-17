@@ -1,0 +1,167 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: #1a1a1a; /* Dark background for high contrast */
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background: #333; /* Dark grey background */
+    color: #e60012; /* Red text color */
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Darker shadow for better contrast */
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+/* RGBA Background Color */
+.background-fade {
+    background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+    color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.background-fade h2 {
+    color: #e60012; /* Red text for headers */
+}
+
+/* Interactive Button Styles */
+.interactive-button {
+    background-color: rgba(255, 0, 0, 0.8); /* Semi-transparent red */
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+}
+
+.interactive-button:hover {
+    background-color: rgba(255, 0, 0, 1); /* Solid red */
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+/* Animated Link Styles */
+.animated-link {
+    color: #e60012; /* Red color */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.animated-link:hover {
+    color: #fff; /* White on hover */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Animated Button Styles */
+.animated-button {
+    background-color: #333; /* Dark grey */
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.animated-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Rotating Icon Styles */
+.rotating-icon {
+    margin: 20px 0;
+}
+
+.rotating-icon img {
+    width: 100px;
+    height: 100px;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Footer Styles */
+footer {
+    background: #333; /* Dark grey */
+    color: #f0f0f0; /* Light text color */
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    color: #e60012; /* Red text for section headers */
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #f0f0f0; /* Light text color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #e60012; /* Red on hover */
+    text-decoration: underline;
+}
